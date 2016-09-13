@@ -13,6 +13,9 @@
 		4E6312731D883759004B0E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6312711D883759004B0E45 /* Main.storyboard */; };
 		4E6312751D883759004B0E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6312741D883759004B0E45 /* Assets.xcassets */; };
 		4E6312781D883759004B0E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6312761D883759004B0E45 /* LaunchScreen.storyboard */; };
+		4E6312811D8838E6004B0E45 /* FreeWidthLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6312801D8838E6004B0E45 /* FreeWidthLayout.m */; };
+		4E6312851D883989004B0E45 /* DDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6312831D883989004B0E45 /* DDCollectionViewCell.m */; };
+		4E6312861D883989004B0E45 /* DDCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6312841D883989004B0E45 /* DDCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		4E6312741D883759004B0E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E6312771D883759004B0E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E6312791D883759004B0E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E63127F1D8838E6004B0E45 /* FreeWidthLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeWidthLayout.h; sourceTree = "<group>"; };
+		4E6312801D8838E6004B0E45 /* FreeWidthLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeWidthLayout.m; sourceTree = "<group>"; };
+		4E6312821D883989004B0E45 /* DDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCollectionViewCell.h; sourceTree = "<group>"; };
+		4E6312831D883989004B0E45 /* DDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCollectionViewCell.m; sourceTree = "<group>"; };
+		4E6312841D883989004B0E45 /* DDCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,11 @@
 				4E6312761D883759004B0E45 /* LaunchScreen.storyboard */,
 				4E6312791D883759004B0E45 /* Info.plist */,
 				4E6312681D883759004B0E45 /* Supporting Files */,
+				4E63127F1D8838E6004B0E45 /* FreeWidthLayout.h */,
+				4E6312801D8838E6004B0E45 /* FreeWidthLayout.m */,
+				4E6312821D883989004B0E45 /* DDCollectionViewCell.h */,
+				4E6312831D883989004B0E45 /* DDCollectionViewCell.m */,
+				4E6312841D883989004B0E45 /* DDCollectionViewCell.xib */,
 			);
 			path = TagWithCollectionView;
 			sourceTree = "<group>";
@@ -136,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E6312861D883989004B0E45 /* DDCollectionViewCell.xib in Resources */,
 				4E6312781D883759004B0E45 /* LaunchScreen.storyboard in Resources */,
 				4E6312751D883759004B0E45 /* Assets.xcassets in Resources */,
 				4E6312731D883759004B0E45 /* Main.storyboard in Resources */,
@@ -149,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E6312811D8838E6004B0E45 /* FreeWidthLayout.m in Sources */,
+				4E6312851D883989004B0E45 /* DDCollectionViewCell.m in Sources */,
 				4E6312701D883759004B0E45 /* ViewController.m in Sources */,
 				4E63126D1D883759004B0E45 /* AppDelegate.m in Sources */,
 				4E63126A1D883759004B0E45 /* main.m in Sources */,
